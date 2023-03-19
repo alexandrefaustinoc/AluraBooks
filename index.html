@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <title>AluraBooks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
 </head>
 <body>
-    
+    <header class="cabeçalho">
+        <div class="container">
+            <input class="container__botao" type="checkbox" id="menu">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="lista-menu" >
+                <li class="lista-menu__titulo">Categoria</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="/assents/Logo.svg" alt="Logo da AluraBooks">
+        </div>
+        <div class="container">
+            <a href="#"><img class="container__imagem" src="/assents/Favoritos.svg" alt="Meus favoritos"></a>
+            <a href="#"><img class="container__imagem" src="/assents/Sacola.svg" alt="Carrinho de compras"></a>
+            <a href="#"><img class="container__imagem" src="/assents/Usuario.svg" alt="Meu perfil"></a>
+        </div>
+    </header>
 </body>
 </html>
