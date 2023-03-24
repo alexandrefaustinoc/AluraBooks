@@ -39,6 +39,17 @@
 }
 
 @media screen and (min-width: 1024px){
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5EM;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
+    
     .contato__titulo {
         display: flex;
         justify-content: center;
@@ -52,9 +63,7 @@
 
     .contato__descrição {
         margin-right: 1em;
-    }
-
-    .contato__email {
         width: 30%;
     }
+
 }
