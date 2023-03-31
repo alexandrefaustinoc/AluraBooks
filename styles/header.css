@@ -81,6 +81,18 @@
 }
 
 
+
+
+.lista-menu__item:hover {
+    background: var(--azul-gradiente);
+}
+
+.lista-menu__item:hover > .lista-menu__link {
+    -webkit-text-fill-color: var(--branco);
+    text-decoration: none;
+}
+
+
 @media screen and (min-width: 1024px){
         .container__titulo, 
         .container__titulo--negrito {
@@ -186,4 +198,5 @@
     .lista-menu__item:hover > .lista-menu__link {
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
+    }
 }
